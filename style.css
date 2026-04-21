@@ -297,4 +297,40 @@ section {
 }
 .contact{
     background-color: #010136;
+    
+@media (max-width: 768px){
+
+    header{
+        padding: 10px 20px !important;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navigation a{
+        display: block;
+        padding: 10px 0;
+    }
+
+    section{
+        padding: 80px 20px !important;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card, .project-card{
+        width: 90% !important;
+    }
+
+    .main{
+        text-align: center;
+        background-attachment: scroll !important;
+    }
+
+    body{
+        padding-top: 80px;
+    }
+}
 }
